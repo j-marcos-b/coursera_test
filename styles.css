@@ -14,14 +14,15 @@ article {
 
 section {
     background-color: #A63208;
-    margin: 35px;
+    margin: 30px;
     padding: 20px;
     width: 33.3%;
+    flex: 1 1 auto;
 }
 h1 {
     color: #F29727;
     text-align: center;
-    margin: 50px;
+    margin: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -40,15 +41,17 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
     article {
         flex-wrap: wrap; 
-        justify-content: space-between;
-        margin: 45px;
+        flex: 1 1 auto;
+       justify-content: space-between;
+        margin: 40px;
     }
+
     .sec3 {
         width: 100%;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     article {
         flex-direction: column;
         align-items: center;
