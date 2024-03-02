@@ -10,6 +10,7 @@ body {
 article {
     display: flex;
     justify-content: space-around;
+    margin: 30px;
 }
 
 section {
@@ -22,8 +23,9 @@ section {
 h1 {
     color: #F29727;
     text-align: center;
-    margin: 40px;
+    margin-top: 55px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 2.2em;
 }
 
 h2 {
@@ -39,11 +41,10 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
     article {
         flex-wrap: wrap; 
-        flex: 1 1 auto;
-       justify-content: space-between;
-        margin: 40px;
+        justify-content: space-between;
     }
 
     .sec3 {
@@ -52,6 +53,7 @@ p {
 }
 
 @media (max-width: 768px) {
+
     article {
         flex-direction: column;
         align-items: center;
